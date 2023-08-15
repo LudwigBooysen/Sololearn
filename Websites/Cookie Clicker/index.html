@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cookie Clicker</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body onload="load()">
+        <div class="container">
+            <div class="difficulty-container content">
+                <div class="content-holder">
+                    <span>Difficulty:</span><br>
+                    <span id="displayDiff"></span><br><br>
+                    <span>Change difficulty:</span> <br>
+                    <button onclick="difficulty(0)" id="dif1">Easy</button><br>
+                    <button onclick="difficulty(1)" id="dif2">Medium</button><br>
+                    <button onclick="difficulty(2)" id="dif3">Hard</button>
+                </div>
+            </div>
+            <div class="cookie-container content">
+                <img src="https://i.pinimg.com/474x/30/51/ef/3051ef82bcb0d24a14c9c6d805d748d0.jpg" onclick="clickedCookie()">
+            </div>
+            <div class="stats-container content">
+                <div class="content-holder">
+                    <span>Cookies:</span> <span id="cookies">0</span><br>
+                    <span>CPS:</span> <span id="cps">1</span><br><br>
+                    <span>Upgrades:</span><br>
+                    <span id="upCps">10</span> <span>Cookies:</span> <button onclick="upgrade()">+1 CPS</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
