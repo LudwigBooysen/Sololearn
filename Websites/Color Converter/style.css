@@ -1,0 +1,77 @@
+body {
+    background-color: #212121;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: #212121;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    transition: all 500ms ease;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid transparent;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+input {
+    padding: 5px;
+    background-color: #212121;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: padding 500ms ease;
+}
+
+input:hover {
+    padding: 7px;
+    background-color: #212121;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+input:focus {
+    padding: 7px;
+    background-color: #212121;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.colors {
+    background-color: gray;
+    color: white;
+    margin: auto;
+    height: 5vh;
+    text-align: center;
+    margin: 0vh 20vw 0vh 20vw;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+
+.res {
+    width: 10vw;
+    height: 5vh;
+    background-color: #323232;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+}

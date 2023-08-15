@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RGB to HEX Converter</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script defer src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="colors">
+            <p>background color of this</p>
+        </div>
+        <p>Presets:</p>
+        <button onclick="changeColor('red')">Red</button>
+        <button onclick="changeColor('green')">Green</button>
+        <button onclick="changeColor('blue')">Blue</button>
+
+        <p>Custom:</p>
+        <button onclick="changeColorCustom(true)">RGB</button>
+        <br>
+        <button onclick="changeColorCustom(false)">Color Name</button>
+        <br><br>
+        <input type="text" id="custom" placeholder="black or 255, 0, 0">
+
+        <p>Result:</p>
+        <div class="res">
+        </div>
+    </body>
+</html>
